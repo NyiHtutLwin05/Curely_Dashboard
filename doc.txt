@@ -1,0 +1,119 @@
+I am making health care plaform .make a Health Goals UI. with next js, tailwind css and shadcn. just one page you have to create. i have already installed and build a project. you have to create HealthGoals.tsx with fully featured
+The Health Goals UI would allow users to easily create and track their personal health targets, such as weight loss, exercise routines, or sleep improvement. It would include input fields to set goal descriptions, deadlines, and specific milestones, with progress bars or charts to visualize achievement. Users could receive motivational reminders, edit goals as needed, and view a history of past goals. Additionally, users could categorize their goals (e.g., fitness, nutrition, mental health) and share progress with others for added support and motivation.
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;`
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+
+--font-family: 'Roboto', Arial, sans-serif;
+
+--font-logo: 'Quicksand', sans-serif;
+
+--font-size-small: 14px;
+
+--font-size-medium: 16px;
+
+--font-size-large: 18px;
+
+--background: 0 0% 100%;
+
+--foreground: 222.2 84% 4.9%;
+
+--card: 0 0% 100%;
+
+--card-foreground: 222.2 84% 4.9%;
+
+--popover: 0 0% 100%;
+
+--popover-foreground: 222.2 84% 4.9%;
+
+--primary: 199 89% 48%;
+
+--primary-foreground: 210 40% 98%;
+
+--secondary: 210 40% 96.1%;
+
+--secondary-foreground: 222.2 47.4% 11.2%;
+
+--muted: 210 40% 96.1%;
+
+--muted-foreground: 215.4 16.3% 46.9%;
+
+--accent: 210 40% 96.1%;
+
+--accent-foreground: 222.2 47.4% 11.2%;
+
+--destructive: 0 84.2% 60.2%;
+
+--destructive-foreground: 210 40% 98%;
+
+--border: 214.3 31.8% 91.4%;
+
+--input: 214.3 31.8% 91.4%;
+
+--ring: 199 89% 48%;
+
+--success: 142 76% 36%;
+
+--warning: 45 93% 47%;
+
+--error: 0 84% 60%;
+
+}
+
+.dark {
+
+--background: 222.2 84% 4.9%;
+
+--foreground: 210 40% 98%;
+
+--card: 222.2 84% 4.9%;
+
+--card-foreground: 210 40% 98%;
+
+--popover: 222.2 84% 4.9%;
+
+--popover-foreground: 210 40% 98%;
+
+--primary: 199 89% 48%;
+
+--primary-foreground: 222.2 47.4% 11.2%;
+
+--secondary: 217.2 32.6% 17.5%;
+
+--secondary-foreground: 210 40% 98%;
+
+--muted: 217.2 32.6% 17.5%;
+
+--muted-foreground: 215 20.2% 65.1%;
+
+--accent: 217.2 32.6% 17.5%;
+
+--accent-foreground: 210 40% 98%;
+
+--destructive: 0 62.8% 30.6%;
+
+--destructive-foreground: 210 40% 98%;
+
+--border: 217.2 32.6% 17.5%;
+
+--input: 217.2 32.6% 17.5%;
+
+--ring: 199 89% 48%;
+
+--success: 142 76% 36%;
+
+--warning: 45 93% 47%;
+
+--error: 0 84% 60%;
+
+}
+
+this is my color
